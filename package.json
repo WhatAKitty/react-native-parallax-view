@@ -1,6 +1,6 @@
 {
-  "name": "react-native-parallax-view",
-  "version": "2.1.0",
+  "name": "react-native-pin-parallax-view",
+  "version": "3.0.0",
   "description": "Parallax view for vertical scrollview with a header image and header content",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,7 @@
     "react-native-scrollable-mixin": "^1.0.1"
   },
   "peerDependencies": {
-    "react-native": ">=0.8.0 || 0.8.0-rc || 0.8.0-rc.2 || 0.8.0-rc.3"
+    "react-native": ">=0.49.2",
+    "prop-types": "15.6.0"
   }
 }
