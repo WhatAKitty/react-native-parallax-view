@@ -1,1 +1,2 @@
-module.exports = require('./lib/ParallaxView');
+
+export { default as ParallaxView } from './lib/ParallaxView';

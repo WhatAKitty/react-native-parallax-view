@@ -1,12 +1,23 @@
 {
-  "name": "example",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node_modules/react-native/packager/packager.sh"
-  },
-  "dependencies": {
-    "react-native": "^0.8.0-rc",
-    "react-native-parallax-view": "file:.."
-  }
+	"name": "example",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"react": "16.0.0-beta.5",
+		"react-native": "0.49.2",
+		"react-native-pin-parallax-view": "^0.0.4"
+	},
+	"devDependencies": {
+		"babel-jest": "21.2.0",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "21.2.1",
+		"react-test-renderer": "16.0.0-beta.5"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
 }
